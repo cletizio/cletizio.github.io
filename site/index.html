@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duct Smoke Detector Certification Test</title>
+    <link rel="stylesheet" href="css/test_styling.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="js/test_scripting.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Duct Smoke Detector Certification Test</h1>
+        <form id="test-form">
+            <div id="quiz">
+                <div class="question">
+                    <h2>Question 1: What code relates to Duct Smoke Detectors?</h2>
+                    <div class="options">
+                        <label><input type="radio" name="q1" value="a"> A. NFPA 13 & 54</label><br>
+                        <label><input type="radio" name="q1" value="b"> B. NFPA 70</label><br>
+                        <label><input type="radio" name="q1" value="c"> C. NFPA 90A & NFPA 72</label><br>
+                        <label><input type="radio" name="q1" value="d"> D. NSPC</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <h2>Question 2: What is the purpose of a duct smoke detector?</h2>
+                    <div class="options">
+                        <label><input type="radio" name="q2" value="a"> A. To detect gas leaks</label><br>
+                        <label><input type="radio" name="q2" value="b"> B. To detect smoke in air ducts</label><br>
+                        <label><input type="radio" name="q2" value="c"> C. To control fire sprinklers</label><br>
+                        <label><input type="radio" name="q2" value="d"> D. To measure air quality</label>
+                    </div>
+                </div>
+
+                <!-- Add more questions similarly -->
+
+                <button type="submit" id="submit">Submit</button>
+                <div id="results"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
