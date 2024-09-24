@@ -11,6 +11,8 @@ body {
 
 .container {
     background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -22,6 +24,11 @@ h1 {
 
 .question {
     margin-bottom: 20px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
 }
 
 button {
@@ -43,4 +50,24 @@ button:hover {
     margin-top: 20px;
     text-align: center;
     font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+    .container{
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    .question h2{
+        font-size: 1.2em;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
 }
