@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -16,6 +15,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    width: 100%; /* Ensure full width inside the body */
 }
 
 h1 {
@@ -24,10 +24,16 @@ h1 {
 
 .question {
     margin-bottom: 20px;
+    display: block;
+    width: 100%; /* Ensures each question takes up the full width */
+}
+
+.options {
+    margin-top: 10px;
 }
 
 .options label {
-    display: block;
+    display: block; /* Stack radio options vertically */
     margin-bottom: 10px;
 }
 
@@ -40,6 +46,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 20px; /* Add space before button */
 }
 
 button:hover {
@@ -53,16 +60,16 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    .container{
+    .container {
         padding: 10px;
         max-width: 100%;
     }
 
-    h1{
+    h1 {
         font-size: 1.5em;
     }
 
-    .question h2{
+    .question h2 {
         font-size: 1.2em;
     }
 
