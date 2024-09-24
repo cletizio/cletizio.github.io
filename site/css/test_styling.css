@@ -3,9 +3,10 @@ body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -16,6 +17,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     width: 100%; /* Ensure full width inside the body */
+    overflow-y: auto;
 }
 
 h1 {
