@@ -192,6 +192,14 @@ function handleSubmit() {
     const correctAnswers = {
         q1: 'c',
         q2: 'b',
+        q3: 'c',
+        q4: 'd',
+        q5: 'd',
+        q6: 'b',
+        q7: 'a',
+        q8: 'a',
+        q9: 'a',
+        q10: 'b',
         // Add more correct answers here
     };
     const totalQuestions = Object.keys(correctAnswers).length;
