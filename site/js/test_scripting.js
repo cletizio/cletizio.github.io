@@ -192,7 +192,7 @@ function handleSubmit() {
     const correctAnswers = {
         q1: 'c',
         q2: 'b',
-        q3: 'c',
+        q3: 'a',
         q4: 'd',
         q5: 'd',
         q6: 'b',
